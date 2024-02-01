@@ -1,0 +1,64 @@
+@font-face{
+    src: url(font/sans.ttf);
+    font-family: 'sans';
+}
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'sans';
+    font-size: 10px;
+    background-color: #19172e;
+}
+
+h1{
+    font-size: 5.5rem;
+    color: #FEFFE2;
+    font-family: 'Arove', cursive;
+    text-align: center;
+}
+
+span{
+    font-weight: 100;
+}
+
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    width: 10rem;
+    color: white;
+    background-color: #212121;
+    border: .4rem solid white;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+}
+
+kbd{
+    display: block;
+    font-size: 4rem;
+
+    cursor: pointer;
+}
+
+.sound{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #bb86fc;
+}
+
+.playing{
+    transform: scale(1);
+    border-color: #bb86fc;
+    box-shadow: 0 0 1rem #bb86fc;
+}
